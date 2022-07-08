@@ -6,10 +6,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    background-color: #70c6c7;
-}
-
 .resume-contents {
     min-height: 100vh;
     width: 80%;
@@ -42,6 +38,7 @@ body {
 
 .profile .profile-image {
     width: 100%;
+    border-radius: 10%;
 }
 
 .name {
@@ -90,6 +87,7 @@ body {
     font-size: 18px;
 }
 
+
 .contact-info ul li i,
 .references ul li i {
     padding-right: 1rem;
@@ -100,6 +98,7 @@ body {
 .skills ul {
     padding-top: 1.5rem;
 }
+
 .skills ul li p {
     padding: .4rem 0;
     color: #d6dbdfaf;
@@ -109,24 +108,6 @@ body {
     align-items: center;
     text-transform: uppercase;
 }
-
-.referance-name {
-    padding-top: 1.5rem;
-    padding-bottom: .4rem;
-    font-size: 18px;
-    color: #F9E79F;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-.referance-profession {
-    font-size: 16px;
-    color: #d6dbdfaf;
-    letter-spacing: 1px;
-    /* text-transform: uppercase; */
-    padding-bottom: .4rem;
-}
-
 
 .right-section-contents {
     padding: 2rem 2rem;
@@ -140,7 +121,7 @@ body {
     font-weight: bold;
     display: flex;
     align-items: center;
-    padding: 2rem 0;
+    padding: 2rem 2rem;
     position: relative;
 }
 
@@ -148,6 +129,7 @@ body {
     padding-bottom: 2rem;
 }
 .about-me-contents {
+    padding: 0rem 2rem;
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 2rem;
@@ -157,6 +139,7 @@ body {
 .experience-contents,
 .education-contents,
 .awards-contents {
+    padding: 2rem 2rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
@@ -180,6 +163,7 @@ body {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 2rem;
+    padding-bottom: 2rem;
 }
 
 .exp-position,
@@ -201,91 +185,4 @@ body {
     line-height: 1.5rem;
     border-left: 3px solid #a5a3a3;
     padding-left: 5px;
-}
-
-/* Media queries */
-@media screen and (max-width:780px) {
-    .experience-contents,
-    .education-contents,
-    .awards-contents {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
-@media screen and (max-width:780px) {
-    .left-section {
-        grid-column: span 3;
-    }
-    
-    .right-section {
-        grid-column: span 4;
-    }
-    
-}
-
-@media screen and (max-width:1200px) {
-    .resume-contents {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
-@media screen and (max-width:390px) {
-    .resume-contents {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .name {
-        font-size: 20px;
-    }
-
-    .profession {
-        font-size: 18px;
-    }
-
-    .left-title {
-        font-size: 18px;
-    }
-
-    .right-title {
-        font-size: 18px;
-    }
-
-    .contact-info ul li,
-    .references ul li {
-        font-size: 12px;
-    }
-
-    .contact-info ul li i,
-    .references ul li i {
-        /* padding-right: 1rem; */
-        font-size: 12px;
-    }
-
-    .skills ul li p {
-        font-size: 12px;
-    }
-
-    .about-me-contents {
-        font-size: 16px;
-        line-height: 1.5rem;
-    }
-
-    .exp-company-name,
-    .education-school-name,
-    .awards-company-name {
-        font-size: 18px;
-    }
-
-    .exp-time-period,
-    .educationp-time-period,
-    .awards-time-period {
-        font-size: 16px;
-    }
-
-    .exp-position,
-    .education-subject,
-    .awards-name {
-        font-size: 18px;
-    }
 }
