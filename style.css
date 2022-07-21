@@ -22,13 +22,15 @@ body {
     grid-column: span 2;
     height: 100%;
     background-color: #00204A;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
     background-color: #4B6982;
-    border-radius: 0px 60px 0px 0px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0px 0px 0px 2px;
 }
 
 .left-section-contents{
@@ -36,12 +38,14 @@ body {
 }
 
 .profile {
-    width: 100%;
+    width: 60%;
     border-bottom: 2px solid #1B2631;
 }
 
 .profile .profile-image {
     width: 100%;
+    margin: 0px 0px 0px 75px;
+    border-radius: 5%;
 }
 
 .name {
@@ -52,6 +56,7 @@ body {
     text-align: center;
     font-weight: bold;
     padding: 1rem 0;
+    margin: 0px 0px 0px 100px;
 }
 
 .profession {
@@ -62,6 +67,7 @@ body {
     letter-spacing: 2px;
     font-weight: bold;
     padding-bottom: 1rem;
+    margin: 0px 0px 0px 100px;
 }
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
