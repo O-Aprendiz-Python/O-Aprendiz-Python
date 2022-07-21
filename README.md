@@ -1,2 +1,3 @@
-# devweekgit.github.io
-Curriculo do Jornada Dev
+# Curriculum
+
+Aqui esta meu currículo feito em <b>HTML</b> e <b>CSS</b>
