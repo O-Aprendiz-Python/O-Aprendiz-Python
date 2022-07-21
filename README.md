@@ -6,7 +6,3 @@
 #### I'm a very good team player, have a mediating personality, good listener and I like to solve problems.
 
 ## Skills
-
-
-
-### https://o-aprendiz-python.github.io/devweekgitlucas.github.io/
