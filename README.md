@@ -36,3 +36,7 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=O-Aprendiz-Python&repo=O-Aprendiz-Python)](https://o-aprendiz-python.github.io/O-Aprendiz-Python/)
 
 [<img src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white' alt='linkedin' height=30>](https://www.linkedin.com/in/lucas-engler-893801181/)
+
+# Status
+
+[![Lucas Engler - GitHub Statistics](https://github-readme-stats.vercel.app/api?username=O-Aprendiz-Python&theme=cobalt)](https://github.com/O-Aprendiz-Python/github-readme-stats)
